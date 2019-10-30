@@ -132,7 +132,6 @@ export default class TabNavigatorTwo extends Component {
               source={require('../image/icon_my.png')}
             />
           )}
-          // badgeText="1"
           onPress={() =>
             this.setState({
               selectedTab: 'my',
